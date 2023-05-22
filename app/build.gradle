@@ -14,9 +14,9 @@ android {
 
         buildConfigField "boolean", "IS_TEST_BUILD", "false"
         buildConfigField "boolean", "IS_GPLAY_BUILD", "false"
-        buildConfigField "String[]", "DETECTED_ANDROID_LOCALES", "${findUsedAndroidLocales()}"
-        buildConfigField "String", "BUILD_DATE", "\"${getBuildDate()}\""
-        buildConfigField "String", "GITHASH", "\"${getGitHash()}\""
+//        buildConfigField "String[]", "DETECTED_ANDROID_LOCALES", "${findUsedAndroidLocales()}"
+//        buildConfigField "String", "BUILD_DATE", "\"${getBuildDate()}\""
+//        buildConfigField "String", "GITHASH", "\"${getGitHash()}\""
         resValue "string", "manifest_package_id", "com.benny.openlauncher"
 
         resValue 'string', 'app_name', "OpenLauncher"
